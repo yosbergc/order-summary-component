@@ -4,3 +4,81 @@
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
 }
+main {
+    background-color: hsl(225, 100%, 94%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+.card {
+    width: 95%;
+    max-width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card-image {
+    width: 100%;
+    height: 200px;
+    background-image: url(images/illustration-hero.svg);
+}
+.card-bottom {
+    padding: 40px 20px;
+}
+.bottomCard-heading {
+    text-align: center;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 20px;
+}
+.bottomCard-paragraph {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 30px;
+}
+.plan-selected, .plan-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plan-info h3 {
+    color: hsl(223, 47%, 23%);
+    font-size: 18px;
+    font-weight: 900;
+}
+.plan-info p {
+    color: hsl(224, 23%, 55%);
+}
+.plan-container {
+    gap: 15px;
+}
+.changeButton {
+    font-weight: 700;
+}
+.plan-selected {
+    margin-bottom: 30px;
+}
+.paymentButton {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.cancel {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+.cancel:hover, .paymentButton:hover, .changeButton:hover {
+    cursor: pointer;
+}
