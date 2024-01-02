@@ -70,6 +70,9 @@ main {
     font-weight: 700;
     font-size: 16px;
     margin-bottom: 30px;
+    box-shadow: 1px 20px 28px 5px rgba(166,210,255,0.65);
+    -webkit-box-shadow: 1px 20px 28px 5px rgba(166,210,255,0.75);
+    -moz-box-shadow: 1px 20px 28px 5px rgba(166,210,255,0.75);
 }
 .cancel {
     color: hsl(224, 23%, 55%);
